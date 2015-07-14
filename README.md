@@ -4,6 +4,7 @@ Latest Version: v1.11
 Last Updated 7/14/2015
 
 Author: David Katz-Wigmore
+Company: Transition Projects Inc.
 
 This program stream lines the processes of extracting HMIS client ID numbers from SSVF DQ reports.
 
