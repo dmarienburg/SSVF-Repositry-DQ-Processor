@@ -108,7 +108,8 @@ reporting_categories = sorted(["Choose a reporting category",
                                "No Head of Household",
                                "Residence Prior to Project Entry",
                                "Multiple Heads of Household",
-                               "Very High Monthly Income"])
+                               "Very High Monthly Income (Entry)",
+                               "Very High Monthly Income (Exit)"])
 
 agency_choices = ["-",
                   "Central City Concern",
