@@ -104,8 +104,8 @@ class App(tk.Frame):
         self.y_scroll = ttk.Scrollbar(self, orient="vertical", command=self.tree.yview)
         self.tree.configure(yscrollcommand=self.y_scroll.set)
 
-        self.clear = ttk.Button(self, command=self.clear_all(), text="Clear All")
-        self.process_button = ttk.Button(self, command=self.process(), text="Process")
+        self.clear = ttk.Button(self, command=self.clear_all, text="Clear All")
+        self.process_button = ttk.Button(self, command=self.process, text="Process")
 
         self.state.set("Select Your State")
         self.provider.set("Select Your Provider")
@@ -156,7 +156,7 @@ class App(tk.Frame):
             WriteFile(str(name), self.values_dict)
             print(name)
         except ValueError:
-            print("Error! File not saved.")
+            print("An error occurred and your file was not saved.")
 
     def set_list(self):
         """
