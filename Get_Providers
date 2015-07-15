@@ -1,0 +1,18 @@
+__author__ = 'dkatz'
+
+import csv
+from collections import defaultdict
+
+
+class MakeDictionary(object):
+    def read_csv(self):
+        """
+        Makes a dictionary using states as keys and providers as values based upon the values in the provider_list.csv
+        This dictionary are then returned
+        :return:
+        """
+        providers = defaultdict(list)
+        provider_reader = csv.reader(open("provider_list.csv", "r"))
+        for state, provider in provider_reader:
+            providers[state].append(provider)
+        return providers
