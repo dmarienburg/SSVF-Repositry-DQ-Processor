@@ -1,9 +1,9 @@
 __author__ = "David Katz-Wigmore"
 
 from File_Creator import WriteFile
-from tkinter import ttk
 
-import tkinter as tk
+import ttk
+import Tkinter as tk
 
 import Get_Providers
 
