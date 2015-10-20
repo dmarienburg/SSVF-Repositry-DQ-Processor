@@ -1,7 +1,7 @@
 # SSVF-Repositry-DQ-Processor
 =================================================================================================
-Latest Version: v1.11
-Last Updated 7/14/2015
+Latest Version: v1.21
+Last Updated 10/20/2015
 
 Author: David Katz-Wigmore
 Company: Transition Projects Inc.
@@ -9,11 +9,21 @@ Company: Transition Projects Inc.
 This program stream lines the processes of extracting HMIS client ID numbers from SSVF DQ reports.
 
 Release Notes:
+v.1.21--Minor Update
+Release Date: 10/20/2015
+  What's New:
+      The column headings in the spreadsheet the program outputs now match the fields in ServicePoint, the HMIS 
+      provider used in Portland, OR.  This change was entirely based upon user feedback and I would love to make 
+      further updates to the program so that its output is the same as the HMIS fields used by every HMIS provider.  I
+      can't do this without community input though so it is going on the back burner until people from outside the 
+      Portland COC start using this program and providing feedback.
+
 v.1.2--Back End Changes
 Release Date: 7/15/2015
   What's New:
     Made numerous changes to the back end making the program usable by SSVF providers outside of Portland Oregon.
-    I also did some clean up work on the code wrapping the GUI in a class and similar tasks that most people really won't be        interested in.  The end result is faster, cleaner code though which should make everone happy.
+    I also did some clean up work on the code wrapping the GUI in a class and similar tasks that most people really 
+    won't be interested in.  The end result is faster, cleaner code though which should make everone happy.
 
 v1.11--Minor Update
 Release Date: 7/14/2015
