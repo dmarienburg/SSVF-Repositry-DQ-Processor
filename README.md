@@ -1,7 +1,7 @@
 # SSVF-Repositry-DQ-Processor
 =================================================================================================
-Latest Version: v1.21
-Last Updated 10/20/2015
+Latest Version: v1.22
+Last Updated 12/8/2015
 
 Author: David Katz-Wigmore
 Company: Transition Projects Inc.
@@ -9,6 +9,12 @@ Company: Transition Projects Inc.
 This program stream lines the processes of extracting HMIS client ID numbers from SSVF DQ reports.
 
 Release Notes:
+v.1.22--New Reporting Categories Update
+Release Date: 12/08/2015
+  What's New:
+    Two new reporting categories, "VAMC Station Number" and "HP Screening Score", have been added to the Reporting
+    Categories dropdown menu to keep the program up to date with the latest VA reporting requirements.
+
 v.1.21--Minor Update
 Release Date: 10/20/2015
   What's New:
