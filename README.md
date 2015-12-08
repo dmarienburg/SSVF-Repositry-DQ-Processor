@@ -1,6 +1,6 @@
 # SSVF-Repositry-DQ-Processor
 =================================================================================================
-Latest Version: v1.22
+Latest Version: v1.23
 Last Updated 12/8/2015
 
 Author: David Katz-Wigmore
@@ -9,6 +9,11 @@ Company: Transition Projects Inc.
 This program stream lines the processes of extracting HMIS client ID numbers from SSVF DQ reports.
 
 Release Notes:
+v.1.23--Bug Fixes
+Release Date: 12/08/2015
+  What's New:
+    This is just a minor bug fix which patches up a crash created by the 1.22 update.
+
 v.1.22--New Reporting Categories Update
 Release Date: 12/08/2015
   What's New:
