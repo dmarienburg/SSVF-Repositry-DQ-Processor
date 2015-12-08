@@ -62,6 +62,7 @@ class App(tk.Frame):
                                             "Military Branch",
                                             "Discharge Status",
                                             "Household Income as a % of AMI",
+                                            "HP Screening Score",
                                             "Last Permanent Address",
                                             "Total Monthly Income (Entry)",
                                             "Total Monthly Income (Exit)",
@@ -70,6 +71,7 @@ class App(tk.Frame):
                                             "No Head of Household",
                                             "Residence Prior to Project Entry",
                                             "Multiple Heads of Household",
+                                            "VAMC Station Number",
                                             "Very High Monthly Income (Entry)",
                                             "Very High Monthly Income (Exit)"
                                             ])
